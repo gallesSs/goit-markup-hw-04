@@ -174,9 +174,14 @@ h2 {
   display: block;
 }
 
-.header.nav-list.nav-list-item:nth-child(1) > a {
-  position: relative;
+.header
+  .container
+  .nav
+  .nav-list
+  .nav-list-item
+  .nav-list-item-link:nth-child(1) {
   color: #404bbf;
+  position: relative;
 }
 
 /* =========== HEADER  ============ */
