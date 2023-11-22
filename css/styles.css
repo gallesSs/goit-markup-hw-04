@@ -157,7 +157,7 @@ h2 {
   .container
   .address
   .address-list
-  .address-list-item:first-child
+  .address-list-item:nth-child(2)
   .address-list-item-link {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -203,7 +203,7 @@ h2 {
   content: '';
   position: absolute;
   left: 0;
-  bottom: -1;
+  bottom: -1px;
   height: 4px;
   background-color: #404bbf;
   border-radius: 2px;
@@ -218,6 +218,15 @@ h2 {
 .main .hero {
   background-color: #2e2f42;
   padding: 188px 0;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/hero_bg.jpg);
+  background-size: cover;
+  max-width: 1440px;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .main .hero .container .hero-title {
@@ -254,6 +263,7 @@ h2 {
   border-radius: 4px;
   cursor: pointer;
   min-width: 169px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .main .hero-button:hover,
