@@ -583,6 +583,7 @@ h2 {
   line-height: 24px;
   letter-spacing: 0.32px;
   max-width: 264px;
+  text-transform: none;
 }
 
 .footer {
@@ -590,8 +591,53 @@ h2 {
   padding: 100px 0;
 }
 
-.footer .container {
+.footer .footer-logo-container {
   display: block;
+  margin-right: 120px;
+}
+
+.footer .container {
+  display: flex;
+  align-items: baseline;
+  justify-content: start;
+}
+
+.footer .container .footer-social .social-media-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+  margin-bottom: 16px;
+}
+
+.footer .container .footer-social .social-media-list {
+  display: flex;
+  gap: 16px;
+}
+
+.social-media-list .social-media-list-item {
+  width: 40px;
+  height: 40px;
+}
+
+.social-media-list-item .social-media-list-item-link {
+  width: 100%;
+  height: 100%;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-media-list-item-link:hover,
+.social-media-list-item-link:focus {
+  background-color: #31d0aa;
+}
+
+.link-icon {
+  fill: #f4f4fd;
 }
 
 /* =========== FOOTER  ============ */
