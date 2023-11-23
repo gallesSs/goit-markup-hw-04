@@ -389,19 +389,24 @@ h2 {
   text-align: center;
 }
 
-.team .container .team-list .team-list-item .icons-container .icons-list {
+.team
+  .container
+  .team-list
+  .team-list-item
+  .team-list-item-container
+  .icons-list {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 24px;
-  margin-bottom: 32px;
+  margin-top: 8px;
 }
 
 .team
   .container
   .team-list
   .team-list-item
-  .icons-container
+  .team-list-item-container
   .icons-list
   .icons-list-item {
   width: 40px;
