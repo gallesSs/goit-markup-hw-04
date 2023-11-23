@@ -157,7 +157,7 @@ h2 {
   .container
   .address
   .address-list
-  .address-list-item:nth-child(2)
+  .address-list-item
   .address-list-item-link {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
