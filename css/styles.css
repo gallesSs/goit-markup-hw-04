@@ -464,6 +464,15 @@ h2 {
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
+.portfolio
+  .container
+  .portfolio-list
+  .portfolio-list-item:hover
+  .portfolio-list-item-img
+  .portfolio-list-item-img-p {
+  transform: translateY(0);
+}
+
 .portfolio .container .portfolio-list .portfolio-list-item > img {
   object-fit: cover;
 }
