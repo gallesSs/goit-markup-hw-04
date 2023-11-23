@@ -280,6 +280,20 @@ h2 {
   padding: 120px 0;
 }
 
+.features
+  .features-container
+  .features-list
+  .features-list-item
+  .icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 112px;
+  background-color: #f4f4fd;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+
 .features .features-container .features-list {
   display: flex;
   justify-content: center;
